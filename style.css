@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+button {
+    background-color: #000;
+    width: 35vh;
+    height: 7vh;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button span {
+    color: #fff;
+    font-size: 2.5vh;
+    font-family: 'Dosis', sans-serif;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 3px solid #000;
+}
+
+button span:hover {
+    color: #000;
+}
+
+#Panel-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#Panel-1 .Background {
+    position: relative;
+    border: 1px #000 solid;
+}
+
+#Panel-1 .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Panel-1 .centered-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Panel-1 .centered span {
+    background-color: #000;
+    color: #fff;
+    font-size: 5vh;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+#Panel-2 {
+    text-align: center;
+    background-color: #666;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#Panel-Coil-2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 30vh;
+}
+
+.Panel-Coil-2-1 p {
+    display: inline-block;
+    max-width: 40vh;
+    margin-right: 30vh;
+    margin-left: 3vh;
+    text-align: initial;
+    color: #000;
+    padding-bottom: 50px;
+    font-size: 2.5vh;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+#Panel-2 h1 {
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 0 5vh;
+}
+
+#Panel-3 {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#Panel-3 {
+    background: url("./assets/css/js/php/images/Panel-3.webp");
+    width: 100%;
+}
+
+#Panel-Coil-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 30vh;
+}
+
+.Panel-Coil-3-1 p {
+    display: inline-block;
+    width: 45vh;
+    margin-right: 30vh;
+    margin-left: 3vh;
+    text-align: initial;
+    padding-bottom: 60px;
+    color: #ffff;
+    font-size: 2.5vh;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+#Panel-3 h1 {
+    color: #ffff;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 0 5vh;
+}
+
+#Panel-Coil-2 img {
+    width: 8vh;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 90px;
+    display: inline;
+}
+
+#Panel-Coil-3 img {
+    width: 6vh;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    display: inline;
+}
+
+#Panel-Coil-4 {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vh;
+}
+
+#Panel-Coil-4 p {
+    max-width: 132vh;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    font-size: 2.5vh;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-right: 10vh;
+    margin-bottom: 7vh;
+}
+
+#Panel-4 h1 {
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5vh 5vh 5vh;
+}
+
+#Panel-5 {
+    display: inline-block;
+    background-color: #333;
+    padding-right: 21.1vh;
+}
+
+#Panel-Coil-5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 19vh;
+}
+
+#Panel-Coil-5 div {
+    display: grid;
+    margin: 5vh;
+    margin-left: 10vh;
+}
+
+#Panel-Coil-5 img {
+    width: 25vh;
+}
+
+#Panel-Coil-5 p {
+    display: inline-block;
+    width: 25vh;
+    text-align: center;
+    color: #ffff;
+    font-size: 2.5vh;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+#Panel-5 h1 {
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 3vh;
+    text-align: center;
+    margin-left: 19vh;
+    color: #ffff;
+    font-size: 5vh;
+    font-family: 'Dosis', sans-serif;
+}

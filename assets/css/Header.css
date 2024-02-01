@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#Header-Coil {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    background: none;
+}
+
+#Header-Coil nav {
+    background-color: #000;
+    height: 8px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+#Header-Coil h2 {
+    display: inline-block;
+}
+
+#Header-Coil .About-US ul nav a {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+#Header-Coil .Logo h1{
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+#Header-Coil .Company h2{
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+#Header-Coil .About-US ul nav a:hover {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#Header-Coil .About-US ul nav:hover {
+    background: linear-gradient(90deg, blue, pink);
+    height: 8px;
+}
+
+#Header-Coil h2:nth-child(1) {
+    margin-left: 57vh;
+}

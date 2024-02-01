@@ -1,0 +1,44 @@
+#Footer {
+    background-color: #000;
+    padding-top: 5vh;
+}
+
+#Footer-Coil img {
+    margin-left: 5vh;
+    width: 7vh;
+}
+
+#Footer-Coil {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Dosis', sans-serif;
+}
+
+#Footer-Coil ul li {
+    display: flex;
+    justify-content: center;
+    margin: 1.2vh;
+}
+
+#Footer-Coil ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5vh;
+}
+
+#Footer div {
+    justify-content: space-between;
+    display: flex;
+}
+
+#Footer .Footer-1 {
+    justify-content: center;
+    display: flex;
+    padding-top: 5vh;
+    padding-right: 5vh;
+}
